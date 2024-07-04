@@ -27,8 +27,8 @@ def compress_and_copy_image(source_path, destination_folder, max_image_size):
         quality -= 10
 
 def main():
-    root_folder_path = '/Users/jaimemagico/Desktop/PDF/MAPTSS'
-    backup_folder_path = '/Users/jaimemagico/Desktop/PDF/MAPTSS/backup'
+    root_folder_path = 'origin'
+    backup_folder_path = 'destination'
     max_image_size = 512 * 1024  # 1 MB
 
     for foldername, subfolders, filenames in os.walk(root_folder_path):
