@@ -12,17 +12,7 @@ This repository contains a Python script to automate the compression and convers
 
 - Python 3.x
 - Pillow library
-
-## Installation
-
-1. **Clone the Repository**
-
-   ```bash
-   git clone https://github.com/your-username/image-compression-script.git
-   cd image-compression-script
-   ```
-
-2. **Install Dependencies**
+ **Install Dependencies**
 
    Use pip to install the required libraries:
 
